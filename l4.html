@@ -1,0 +1,1067 @@
+<html>
+  <head>
+    <title> Metro CDMX </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/metro.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/tabla.css" media="all" />
+    <link rel="stylesheet" href="css/prelod.css" media="all" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/botonl.css">
+  	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/barra.css">
+  	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  	<script src="js/main.js"></script>
+  </head>
+    <body class="demo">
+
+      <embed src="audio/metro.mp3" autostart="true" loop="true" volume="80" width="0" height="0">
+<button class="button" style="vertical-align:middle" onClick="window.location='index.html'"><span>Regresar</span></button>
+
+<div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3530597"><span style="color:gray;">Hora actual en</span><br />La Ciudad de México</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=medium&timezone=America%2FMexico_City" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+
+        <div id="contenedor">
+          <div id="barra">
+            <div id="texto"></div>
+          </div>
+        </div><br>
+
+      <div id="loader-wrapper">
+  			<div id="loader"></div>
+
+  			<div class="loader-section section-left"></div>
+              <div class="loader-section section-right"><br><br><br><br><br><br><br>
+                <img src="img/metro.png" width="90" height="90"><br><br><font color="white">LOADING...</font></div>
+
+  		</div>
+<img src="img/l4/l4.png" align="left" width="400" height="90">
+      <table border>
+
+        <tr>
+          <th scope="row" bgcolor=#009999><font size=6>Estaciones</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 1</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 2</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 3</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 4</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 5</font></th>
+          <th bgcolor=#009999><font size=6>Vagón 6</font></th>
+        </tr>
+        <tr>
+          <th><img src="img/l4/santanita.jpg" width="300" height="90"></th>
+          <!-- Vagón 1 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero").innerHTML = num;
+                document.getElementById("resultado1").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero">Pasajeros</span><br>
+
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado1">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero2").innerHTML = num;
+                document.getElementById("resultado2").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero2">Pasajeros</span><br>
+
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado2">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero3").innerHTML = num;
+                document.getElementById("resultado3").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero3">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado3">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero4").innerHTML = num;
+                document.getElementById("resultado4").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero4">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado4">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero5").innerHTML = num;
+                document.getElementById("resultado5").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero5">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado5">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero6").innerHTML = num;
+                document.getElementById("resultado6").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero6">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado6">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/jamaica.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero7").innerHTML = num;
+                document.getElementById("resultado7").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero7">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado7">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero8").innerHTML = num;
+                document.getElementById("resultado8").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero8">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado8">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero9").innerHTML = num;
+                document.getElementById("resultado9").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero9">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado9">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero10").innerHTML = num;
+                document.getElementById("resultado10").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero10">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado10">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero11").innerHTML = num;
+                document.getElementById("resultado11").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero11">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado11">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero12").innerHTML = num;
+                document.getElementById("resultado12").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero12">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado12">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/fray.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero13").innerHTML = num;
+                document.getElementById("resultado13").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero13">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado13">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero14").innerHTML = num;
+                document.getElementById("resultado14").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero14">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado14">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero15").innerHTML = num;
+                document.getElementById("resultado15").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero15">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado15">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero16").innerHTML = num;
+                document.getElementById("resultado16").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero16">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado16">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero17").innerHTML = num;
+                document.getElementById("resultado17").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero17">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado17">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero18").innerHTML = num;
+                document.getElementById("resultado18").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero18">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado18">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/candelaria.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero19").innerHTML = num;
+                document.getElementById("resultado19").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero19">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado19">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero20").innerHTML = num;
+                document.getElementById("resultado20").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero20">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado20">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero21").innerHTML = num;
+                document.getElementById("resultado21").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero21">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado21">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero22").innerHTML = num;
+                document.getElementById("resultado22").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero22">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado22">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero23").innerHTML = num;
+                document.getElementById("resultado23").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero23">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado23">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero24").innerHTML = num;
+                document.getElementById("resultado24").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero24">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado24">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/morelos.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero25").innerHTML = num;
+                document.getElementById("resultado25").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero25">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado25">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero26").innerHTML = num;
+                document.getElementById("resultado26").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero26">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado26">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero27").innerHTML = num;
+                document.getElementById("resultado27").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero27">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado27">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero28").innerHTML = num;
+                document.getElementById("resultado28").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero28">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado28">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero29").innerHTML = num;
+                document.getElementById("resultado29").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero29">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado29">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero30").innerHTML = num;
+                document.getElementById("resultado30").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero30">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado30">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/canalnorte.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero31").innerHTML = num;
+                document.getElementById("resultado31").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero31">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado31">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero33").innerHTML = num;
+                document.getElementById("resultado33").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero33">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado33">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero34").innerHTML = num;
+                document.getElementById("resultado34").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero34">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado34">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero35").innerHTML = num;
+                document.getElementById("resultado35").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero35">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado35">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero36").innerHTML = num;
+                document.getElementById("resultado36").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero36">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado36">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero37").innerHTML = num;
+                document.getElementById("resultado37").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero37">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado37">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/consulado.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero38").innerHTML = num;
+                document.getElementById("resultado38").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero38">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado38">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero39").innerHTML = num;
+                document.getElementById("resultado39").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero39">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado39">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero40").innerHTML = num;
+                document.getElementById("resultado40").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero40">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado40">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero41").innerHTML = num;
+                document.getElementById("resultado41").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero41">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado41">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero42").innerHTML = num;
+                document.getElementById("resultado42").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero42">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado42">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero43").innerHTML = num;
+                document.getElementById("resultado43").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero43">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado43">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/bondojito.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero44").innerHTML = num;
+                document.getElementById("resultado44").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero44">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado44">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero45").innerHTML = num;
+                document.getElementById("resultado45").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero45">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado45">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero46").innerHTML = num;
+                document.getElementById("resultado46").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero46">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado46">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero47").innerHTML = num;
+                document.getElementById("resultado47").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero47">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado47">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero48").innerHTML = num;
+                document.getElementById("resultado48").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero48">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado48">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero49").innerHTML = num;
+                document.getElementById("resultado49").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero49">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado49">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/talisman.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero50").innerHTML = num;
+                document.getElementById("resultado50").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero50">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado50">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero51").innerHTML = num;
+                document.getElementById("resultado51").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero51">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado51">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero52").innerHTML = num;
+                document.getElementById("resultado52").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero52">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado52">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero53").innerHTML = num;
+                document.getElementById("resultado53").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero53">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado53">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero54").innerHTML = num;
+                document.getElementById("resultado54").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero54">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado54">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero55").innerHTML = num;
+                document.getElementById("resultado55").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero55">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado55">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l4/martin.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero56").innerHTML = num;
+                document.getElementById("resultado56").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero56">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado56">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero57").innerHTML = num;
+                document.getElementById("resultado57").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero57">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado57">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero58").innerHTML = num;
+                document.getElementById("resultado58").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero58">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado58">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero59").innerHTML = num;
+                document.getElementById("resultado59").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero59">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado59">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero60").innerHTML = num;
+                document.getElementById("resultado60").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero60">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado60">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero61").innerHTML = num;
+                document.getElementById("resultado61").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero61">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado61">Vacíos</span>
+          </td>
+        </tr>
+        <tr>
+          <th><img src="img/l6/martin.jpg" width="300" height="90"></th>
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero62").innerHTML = num;
+                document.getElementById("resultado62").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero62">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado62">Vacíos</span>
+          </td>
+          <!-- Vagón 2 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero63").innerHTML = num;
+                document.getElementById("resultado63").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero63">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado63">Vacíos</span>
+          </td>
+          <!-- Vagón 3 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero64").innerHTML = num;
+                document.getElementById("resultado64").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero64">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado64">Vacíos</span>
+          </td>
+          <!-- Vagón 4 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero65").innerHTML = num;
+                document.getElementById("resultado65").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero65">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado65">Vacíos</span>
+          </td>
+          <!-- Vagón 5 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero66").innerHTML = num;
+                document.getElementById("resultado66").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero66">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado66">Vacíos</span>
+          </td>
+          <!-- Vagón 6 -->
+          <td>
+            <script type="text/javascript">
+              function Generar() {
+                var num = Math.round(Math.random() * (10 - 75) + 75);
+                document.getElementById("numero67").innerHTML = num;
+                document.getElementById("resultado67").innerHTML = 75 - num;
+              }
+              setInterval(Generar, 10000);
+            </script>
+            <span><font color=red>Lugares ocupados: </font></span>
+            <span id="numero67">Pasajeros</span><br>
+            <span><font color=green>Lugares vacíos: </font></span>
+            <span id="resultado67">Vacíos</span>
+          </td>
+        </tr>
+      </table>
+    </body>
+</html>

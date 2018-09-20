@@ -1,0 +1,62 @@
+#contenedor {
+    width: 50em;
+    height: 4em;
+    margin: 0 auto;
+    border: 2px solid #eb7260;
+}
+
+#barra {
+    width: 0;
+    height: 100%;
+    background: #eb7260;
+}
+
+#texto {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2em;
+    width: 12.5em;
+    height: 100%;
+    text-align: center;
+    color: #eb7260;
+    mix-blend-mode: multiply;
+}
+
+#texto:after {
+    content: '0%';
+}
+
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes porcentaje {
+    0% {
+        content: '0% Abriendo puertas';
+    }
+    25% {
+        content: '25% Permita el paso';
+    }
+    50% {
+        content: '50% En ruta';
+    }
+    75% {
+        content: '75% Tenga precaución';
+    }
+    100% {
+        content: '100% Siguiente estación';
+    }
+}
+
+#barra {
+    animation: progreso 10s linear infinite;
+}
+
+#texto:after {
+    animation: porcentaje 10s linear infinite;
+}
