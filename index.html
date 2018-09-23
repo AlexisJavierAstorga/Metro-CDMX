@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html >
+<html lang="en" class="no-js">
+
 <head>
-  <meta charset="UTF-8">
+	<meta charset="UTF-8">
   <title>Metro CDMX</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="img/metro.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="shortcut icon" href="img/metro.png" type="image/x-icon">
+	<!-- food icons -->
+	<link rel="stylesheet" type="text/css" href="css/organicfoodicons.css" />
+	<!-- demo styles -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- menu styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr-custom.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/respon.css">
   <link rel="stylesheet" href="css/boton.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -16,164 +26,178 @@
 
 
       <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
 <body class="demo">
-  <div id="loader-wrapper">
+	<div id="loader-wrapper">
     <div id="loader"></div>
 
-    <div class="loader-section section-left"></div>
-          <div class="loader-section section-right"><br><br><br><br><br><br><br>
-            <img src="img/metro.png" width="90" height="90"><br><br><font color="white">LOADING...</font></div>
+    <div class="loader-section section-left"><br><br><br><br><br><br><br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="img/metro1.png" width="70" height="90">
+			<br><br><font color="white">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLOAD
+			</font>
+		</div>
+    <div class="loader-section section-right"><br><br><br><br><br><br><br>
+    	<img src="img/metro2.png" width="70" height="90"><br><br><font color="white">ING...</font>
+		</div>
 
 
   </div>
-  <main role="main" id="main">
-<img src="img/icon/logo-metro.jpg" width="900" height="150">
-	<section class="tiles-a">
-		<ul>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<div class="dummy-logo">
+					<img src="img/stc_metro.png" width="250" height="70">
+			</div>
+		</header>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l1.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l1_ico.jpg"   alt="Starry Night">
-						<div class="text-copy wrapper">
-							<h3>Línea 1 Pantitlan / Observatorio</h3>
-							<p>Tiene una longitud de 18 Km 828 m (en servicio 16 Km 654 m y el resto se usa para maniobras). Se integra por 20 estaciones, 7 de ellas de correspondencia, 12 de paso y dos terminales; del total, 19 estaciones son subterráneas y una superficie.</p>
-							<h2><u>Fuera de servicio</u></h2>
-              <button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-            </div>
-					</div>
-				</a>
-			</li>
+		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu">Menú</span></button>
+		<nav id="ml-menu" class="menu">
 
-			<li>
-				<a href="#" style="background: url('img/icon/l2.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l2_ico.png" alt="Ocean beach">
-						<div class="text-copy wrapper">
-							<h3>Línea 2 Cuatro Caminos / Tasqueña</h3>
-							<p>Tiene una longitud de 23 Km 431 m (en servicio 20 Km 713 m y el resto se usa para maniobras). Se integra por 24 estaciones, 5 de ellas de correspondencia, 17 de paso y dos terminales; del total, 14 estaciones son subterráneas y 10 superficies.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-            </div>
-					</div>
-				</a>
-			</li>
+			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+			<div class="menu__wrap">
+				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
 
-			<li>
-				<a href="#" style="background: url('img/icon/l3.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l3_ico.png" alt="Manhattan">
-						<div class="text-copy wrapper">
-							<h3>Línea 3 Indios Verdes / Universidad</h3>
-							<p>Tiene una longitud de 23 Km 609 m (en servicio 21 Km 278 m y el resto se usa para maniobras). Se integra por 21 estaciones, 6 de ellas de correspondencia, 13 de paso y 2 terminales; del total, 17 estaciones son subterráneas y 4 superficies.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-            </div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Línea 1</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l4.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l4_ico.png" alt="Large bridge">
-						<div class="text-copy wrapper">
-							<h3>Línea 4 Santa Anita / Martín Carrera</h3>
-							<p>Tiene una longitud de 10 Km 747 m (en servicio 9 Km 363 m y el resto se usa para maniobras). Se integra por 10 estaciones, 6 de ellas de correspondencia -incluidas dos terminales-, y 4 de paso; 2 estaciones son superficies y 8 elevadas.</p>
-<button class="button" style="vertical-align:middle" onClick="window.location='l4.html'"><span>Ver tráfico de línea</span></button>
-						</div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l2.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Línea 2</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l5.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l5_ico.png" alt="Large bridge">
-						<div class="text-copy wrapper">
-							<h3>Línea 5 Politécnico / Pantitlan</h3>
-							<p>Tiene una longitud de 15 Km 675 m (en servicio 14 Km 435 m y el resto se usa para maniobras). Se integra por 13 estaciones, 5 de ellas de correspondencia incluida una de sus terminales , 7 de paso y una terminal más; del total, 4 estaciones son subterráneas y 9 superficies.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-						</div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l3.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">Línea 3</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l6.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l6_ico.png" alt="Goat-like animal">
-						<div class="text-copy wrapper">
-							<h3>Línea 6 El Rosario / MArtín Carrera</h3>
-							<p>Tiene una longitud de 13 Km 947 m (en servicio 11 Km 434 m y el resto se usa para maniobras). Se integra por 11 estaciones, 4 de ellas de correspondencia -incluidas las dos terminales-, 7 de paso; del total, 10 estaciones son subterráneas y una superficie.</p>
-              <button class="button" style="vertical-align:middle" onClick="window.location='l6.html'"><span>Ver tráfico de línea</span></button>
-						</div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l4.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Línea 4</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l7.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l7_ico.png" alt="Starry Night">
-						<div class="text-copy wrapper">
-							<h3>Línea 7 El Rosario / Barranca del Muerto</h3>
-							<p>Tiene una longitud de 18 Km 784 m (en servicio 17 Km 011 m y el resto se usa para maniobras). Se integra por 14 estaciones, 3 de ellas de correspondencia -incluida una de sus terminales-, 10 de paso y una terminal más; del total, 13 estaciones son subterráneas y una superficie.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-            </div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l5.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-5" aria-owns="submenu-5" href="#">Línea 5</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l8.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l8_ico.png" alt="Ocean beach">
-						<div class="text-copy wrapper">
-							<h3>Línea 8 Garibaldi / Constitución de 1917</h3>
-							<p>Tiene una longitud de 20 Km 078 m (en servicio 17 Km 679 m y el resto se usa para maniobras). Se integra por 19 estaciones, 5 de ellas de correspondencia -incluida una de sus terminales-, 13 de paso y una terminal más; del total, 14 estaciones son subterráneas y 5 superficiales.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-						</div>
-					</div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l6.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-6" aria-owns="submenu-6" href="#">Línea 6</a></li><br>
 
-			<li>
-				<a href="#" style="background: url('img/icon/l9.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
-					<div class="details visually-hidden">
-						<img src="img/icon/l9_ico.png" alt="Manhattan">
-						<div class="text-copy wrapper">
-							<h3>Línea 9 Pantitlan / Tacubaya</h3>
-							<p>Tiene una longitud de 15 Km 375 m (en servicio 13 Km 033 m y el resto se usa para maniobras). Se integra por 12 estaciones, 5 de ellas de correspondencia -incluidas las dos terminales-, 7 de paso; del total, 8 estaciones son subterráneas y 4 elevadas.</p>
-							<h2><u>Fuera de servicio</u></h2>
-<button class="button" style="vertical-align:middle" onClick="window.location='#'"><span>Ver tráfico de línea</span></button>
-          </div>
-          </div>
-				</a>
-			</li>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l7.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-7" aria-owns="submenu-7" href="#">Línea 7</a></li><br>
 
-		</ul>
-	</section>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l8.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-8" aria-owns="submenu-8" href="#">Línea 8</a></li><br>
 
-</main>
+					<li class="menu__item" role="menuitem"><img src="img/menu/l9.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-9" aria-owns="submenu-9" href="#">Línea 9</a></li><br>
 
-<aside role="complementary" id="aside" aria-hidden="true" aria-expanded="false">
-	<a href="#" class="close"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/close-white-thin.svg" alt="Close button"><span class="visually-hidden">Return to main content</span></a>
-	<div class="aside--details" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Image details">
+					<li class="menu__item" role="menuitem"><img src="img/menu/la.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-10" aria-owns="submenu-10" href="#">Línea A</a></li><br>
 
+					<li class="menu__item" role="menuitem"><img src="img/menu/lb.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-11" aria-owns="submenu-11" href="#">Línea B</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l12.png" align="left" width="250" height="50"><a class="menu__link" data-submenu="submenu-12" aria-owns="submenu-12" href="#">Línea 12</a></li><br>
+				</ul>
+
+				<!-- Submenu 1 -->
+				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu">
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1.png" align="left" width="250" height="50"><a class="menu__link" href="#">Estaciones</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/observatorio.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Observatorio</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/tacubaya.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Tacubaya</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/juanacatlan.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Juanacatlan</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/chapultepec.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Chapultepec</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/sevilla.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Sevilla</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/insurgentes.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Insurgentes</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/cuauhtemoc.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Cuauhtemoc</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/balderas.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Balderas</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/salto.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Salto del Agua</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/isabel.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Isabel la Catolica</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/pino.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Pino Suarez</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/merced.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Merced</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/candelaria.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Candelaria</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/sanlazaro.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">San Lazaro</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/moctezuma.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Moctezuma</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/balbuena.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Balbuena</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/boulevard.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Boulevard Puerto Aereo</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/gomez.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Gomez Farias</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/zaragoza.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Zaragoza</a></li><br>
+
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1/sub/pantitlan.jpg" align="left" width="250" height="50"><a class="menu__link" href="#">Pantitlan</a></li><br>
+
+				</ul>
+
+				<!-- Submenu 2 -->
+				<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu">
+					<li class="menu__item" role="menuitem"><img src="img/menu/l1.png" align="left" width="250" height="50"><a class="menu__link" href="#">Estaciones</a></li>
+				</ul>
+
+				<!-- Submenu 3 -->
+				<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Grains">
+				</ul>
+
+				<!-- Submenu 4 -->
+				<ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Mylk &amp; Drinks">
+				</ul>
+
+			</div>
+		</nav>
+		<div class="content">
+			<p class="info">Por favor selecciona una línea del metro</p>
+			<!-- Ajax loaded content here -->
+		</div>
 	</div>
-</aside>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/toggleAria.js'></script>
+	<!-- /view -->
+	<script src="js/classie.js"></script>
+	<script src="js/dummydata.js"></script>
+	<script src="js/main-es.js"></script>
+	<script>
+	(function() {
+		var menuEl = document.getElementById('ml-menu'),
+			mlmenu = new MLMenu(menuEl, {
+				// breadcrumbsCtrl : true, // show breadcrumbs
+				// initialBreadcrumb : 'all', // initial breadcrumb text
+				backCtrl : false, // show back button
+				// itemsDelayInterval : 60, // delay between each menu item sliding animation
+				onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+			});
 
-    <script src="js/index.js"></script>
+		// mobile menu toggle
+		var openMenuCtrl = document.querySelector('.action--open'),
+			closeMenuCtrl = document.querySelector('.action--close');
 
+		openMenuCtrl.addEventListener('click', openMenu);
+		closeMenuCtrl.addEventListener('click', closeMenu);
+
+		function openMenu() {
+			classie.add(menuEl, 'menu--open');
+			closeMenuCtrl.focus();
+		}
+
+		function closeMenu() {
+			classie.remove(menuEl, 'menu--open');
+			openMenuCtrl.focus();
+		}
+
+		// simulate grid content loading
+		var gridWrapper = document.querySelector('.content');
+
+		function loadDummyData(ev, itemName) {
+			ev.preventDefault();
+
+			closeMenu();
+			gridWrapper.innerHTML = '';
+			classie.add(gridWrapper, 'content--loading');
+			setTimeout(function() {
+				classie.remove(gridWrapper, 'content--loading');
+				gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+			}, 700);
+		}
+	})();
+	</script>
 </body>
+
 </html>
