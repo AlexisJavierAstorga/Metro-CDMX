@@ -2,13 +2,13 @@
     width: 50em;
     height: 4em;
     margin: 0 auto;
-    border: 2px solid #eb7260;
+    border: 2px solid #ffffff;
 }
 
 #barra {
     width: 0;
     height: 100%;
-    background: #eb7260;
+    background: #ffffff;
 }
 
 #texto {
@@ -18,7 +18,7 @@
     width: 12.5em;
     height: 100%;
     text-align: center;
-    color: #eb7260;
+    color: #ffffff;
     mix-blend-mode: multiply;
 }
 

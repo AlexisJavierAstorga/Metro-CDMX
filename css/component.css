@@ -42,7 +42,7 @@
 	left: 0;
 	width: 300px;
 	height: calc(100vh - 120px);
-	background: #FE9A2E;
+	background: #ff6b00;
 }
 
 .menu__wrap {
@@ -86,7 +86,7 @@
 	position: relative;
 	display: block;
 	padding: 1em 2.5em 1em 1.5em;
-	color: #ffffff;
+	color: #ff6b00;
 	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
 }
@@ -97,14 +97,14 @@
 	position: absolute;
 	right: 0;
 	padding: 0.25em 1.25em;
-	color: #000000;
+	color: #ff6b00;
 }
 
 .menu__link:hover,
 .menu__link:focus,
 .menu__link[data-submenu]:hover::after,
 .menu__link[data-submenu]:focus::after {
-	color: #000000;
+	color: #ff6b00;
 }
 
 .menu__link--current::before {
